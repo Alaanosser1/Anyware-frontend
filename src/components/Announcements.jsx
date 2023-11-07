@@ -7,7 +7,7 @@ const Announcements = () => {
   useEffect(() => {
     // Make an Axios GET request to fetch announcements
     axios
-      .get("http://localhost:3000/announcements/list")
+      .get("https://anyware-backend.vercel.app/announcements/list")
       .then((response) => {
         setAnnouncements(response.data);
         console.log(response, "LOLOLOLO");

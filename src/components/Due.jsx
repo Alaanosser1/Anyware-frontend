@@ -6,7 +6,7 @@ const Due = () => {
 
   useEffect(() => {
     // Define the API endpoint to fetch quizzes
-    const apiUrl = "http://localhost:3000/quiz/quizzes";
+    const apiUrl = "https://anyware-backend.vercel.app/quiz/quizzes";
 
     // Make the Axios GET request
     axios
