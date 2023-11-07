@@ -99,7 +99,7 @@ const Login = () => {
                       </a>
                     </div>
                   </div>
-                  <Link to="/dashboard">
+                  <Link to="/app">
                     <div className="flex w-full justify-center">
                       <button
                         type="submit"

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { ReactComponent as Home } from "../assets/images/home.svg";
 import { ReactComponent as Schedule } from "../assets/images/schedule.svg";
 import { ReactComponent as Courses } from "../assets/images/courses.svg";
